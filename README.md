@@ -10,3 +10,6 @@ A `requirements.txt` with `sopel_plugins.channelmgnt==1.0.0` does not raise a cr
 May be that the underscore `_` versus dash `-` is the difference and causing dependabot not to report this.
 
 As a control, `ansible` which also has a critical vulnerability is in place.
+
+Only the ansible alert may be found at:
+https://github.com/gm3dmo/dependabot-python-sopel/security/dependabot
