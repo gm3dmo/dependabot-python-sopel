@@ -6,7 +6,8 @@ In the *pypi* project the package name [sopel-plugins.channelmgnt](https://pypi.
 
 May be that the underscore `_` versus dash `-` is the difference and causing dependabot not to report this vulnerability.
 
-As a control, `ansible` which also has a critical vulnerability is in place.
+As a control, `ansible` which also has a vulnerability is in place. Expectation is that the `requirements.txt` file should create 2 dependabot alerts.
 
-Only the ansible alert may be found at:
+Only the `ansible` alert is reported at:
+
 https://github.com/gm3dmo/dependabot-python-sopel/security/dependabot
