@@ -1,0 +1,3 @@
+ansible==2.5.15
+sopel-plugins.channelmgnt==1.0.0
+#sopel_plugins.channelmgnt==1.0.0
